@@ -10,7 +10,7 @@ const Navbar = () => {
   const sideMenu = useRef();
 
   const openMenu = () => {
-    sideMenu.current.style.transform = "translateX(-1rem)";
+    sideMenu.current.style.transform = "translateX(-15rem)";
   };
 
   const closeMenu = () => {
@@ -53,7 +53,7 @@ const Navbar = () => {
       <div>
         <ul
           ref={sideMenu}
-          className="sm:hidden flex flex-col gap-4 bg-slate-700 z-50 py-12 px-5 fixed rounded-sm h-screen -right-[1rem]  w-[12rem] duration-500"
+          className="sm:hidden flex flex-col gap-4 bg-slate-700 z-50 py-12 px-5 fixed rounded-sm h-screen -right-[15rem]  w-[12rem] duration-500"
         >
           <div onClick={closeMenu}>
             <button>
