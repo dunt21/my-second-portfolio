@@ -1,4 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+
+import { Montserrat, Poppins } from "next/font/google";
+
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
   content: [
@@ -13,6 +16,11 @@ export default {
         foreground: "var(--foreground)",
       },
     },
+    fontFamily: {
+      Poppins: ["Poppins", "sans-serif"],
+      Montserrat: ["Montserrat", "serif"],
+    },
+
     boxShadow: {
       shadowWhite: "2px 2px 0 #cbd5e1",
     },

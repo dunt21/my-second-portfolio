@@ -14,7 +14,7 @@ const Project = () => {
           <h2 className="mb-10 text-3xl sm:text-4xl lg:text-5xl overflow-y-hidden text-center bg-gradient-to-r from-[#FF8660] to-[#9A33FF] text-transparent bg-clip-text">
             Projects i Built
           </h2>
-          <ul className="grid grid-cols-auto gap-4  ">
+          <ul className="grid grid-cols-auto gap-4 place-items-center ">
             <li>
               <Image src={profileLinks} className="w-[17rem] h-44" alt="" />
               <div className="bg-slate-900 hover:bg-slate-800 py-2 px-5 rounded-xl mt-2 flex gap-10 items-center w-[17rem]">
