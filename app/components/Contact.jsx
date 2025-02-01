@@ -12,10 +12,10 @@ const Contact = () => {
       className="mt-36 mb-16 flex flex-col items-center  gap-5"
     >
       <div className="text-center">
-        <h2 className=" text-2xl sm:text-4xl font-bold  overflow-y-hidden mb-2 bg-gradient-to-r from-[#FF8660] to-[#9A33FF] text-transparent bg-clip-text">
+        <h2 className=" text-xl sm:text-4xl font-bold  overflow-y-hidden mb-2 bg-gradient-to-r from-[#FF8660] to-[#9A33FF] text-transparent bg-clip-text">
           Want to collaborate with me?
         </h2>
-        <p className=" text-lg sm:text-xl font-semibold ">
+        <p className=" text-md sm:text-xl font-semibold ">
           Lets connect on social media app!{" "}
         </p>
       </div>
