@@ -8,14 +8,14 @@ const Head = () => {
     <div className="">
       <div className=" flex flex-col items-center mx-auto mt-20 text-center gap-2">
         <Image src={profileImg} className="rounded-full w-32" alt="" />
-        <p className="  text-[1rem] max-w-sm sm:max-w-full sm:text-2xl flex sm:gap-2 font-semibold lg:text-2xl">
+        <p className="  text-[1rem] w-[20rem]  sm:w-full justify-center sm:text-2xl flex sm:gap-2 font-semibold lg:text-2xl">
           Hey There! I go by the name Suad Macaulay
           <Image
             src={hand}
-            className=" w-7 h-[28px] -translate-x-6 sm:translate-x-0 sm:h-auto sm:w-7 "
+            className=" w-7 h-[28px] -translate-x-2 sm:translate-x-0 sm:h-auto sm:w-7 "
           />
         </p>
-        <h2 className="text-2xl sm:text-4xl sm:w-[50rem] mt-2 overflow-y-hidden lg:text-5xl lg:w-[58rem]">
+        <h2 className="text-2xl sm:text-[2rem] sm:w-[40rem] mt-2 overflow-y-hidden lg:text-5xl lg:w-[58rem]">
           A frontend Developer and Blockchain enthusiast
         </h2>
         <p className=" text-[13px] w-[20rem] sm:text-[15px] sm:w-[38rem] mt-3 lg:text-[16px] lg:w-[45rem]">
